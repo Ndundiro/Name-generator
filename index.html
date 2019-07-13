@@ -14,19 +14,19 @@
     <form>
         <div class="form-group">
             <label for="Century">Century</label>
-            <input type="text" class="form-control" id="century" placeholder="centuryeg20">
+            <input type="text" class="form-control" id="century" placeholder="eg.20" required>
         </div>
         <div class="form-group">
             <label for="Year">Year</label>
-            <input type="year" class="form-control" id="year" placeholder="eg.2010">
+            <input type="year" class="form-control" id="year" placeholder="eg.2010" required>
         </div>
         <div class="form-group">
             <label for="month">month</label>
-            <input type="text" class="form-control" id="month" placeholder="March">
+            <input type="number" class="form-control" id="month" placeholder="eg.2" min="1" max="12" required>
         </div>
         <div class="form-group">
             <label for="Year">Date</label>
-            <input type="text" class="form-control" id="date" placeholder="30">
+            <input type="text" class="form-control" id="date" placeholder="eg.30" min="1" max="31" required>
         </div>
 
 
@@ -42,6 +42,10 @@
             
             <!-- <label for="submit" action="clear"></label> -->
         </div>
+        
+        <!-- <p id="result">
+
+        </p> -->
     </form>
     
     <input type="reset"> 
