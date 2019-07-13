@@ -17,8 +17,21 @@ var calculate = function() {
     day();
     // call the above function (day)
     dayOfTheWeek = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
-    document.write(Math.floor(dayNum));
+    document.write(Math.floor(dayOfTheWeek));
     // Input the formula for finding the day.Used the one on LMS
+}
+
+var checkgender = function() {
+    var gender = document.getElementById("gender");
+    if(gender[0].checked == true){
+        gender = "male"
+    }
+    else if (gender[1].checked == true ){
+        gender = "female"
+    }
+    else {
+        alert("Input gender")
+    }
 }
 
 
