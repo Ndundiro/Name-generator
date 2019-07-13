@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>Name Generator</h1>  
-        <p>This is a simple web app that outputs your Aknan name according to the date of birth.The name corresponds to the day of the week that you were born.</p>
-        <form>
-            <input type="date">
-            <input type="submit" id="submit">
-        </form>  
-        <form id="form">
-            <input type="radio" value="Male" name="gender">Male  
-            <input type="radio" Value="Female" name="gender">Female
-            <input type="submit" id="submit" ONCLICK="compute(this.form)">
-        </form>    
-        <script src="script.js"></script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</head>
+
+<body>
+    <form>
+        <div class="form-group">
+            <label for="Century">Century</label>
+            <input type="text" class="form-control" id="century" placeholder="centuryeg20">
+        </div>
+        <div class="form-group">
+            <label for="Year">Year</label>
+            <input type="year" class="form-control" id="year" placeholder="eg.2010">
+        </div>
+        <div class="form-group">
+            <label for="month">month</label>
+            <input type="text" class="form-control" id="month" placeholder="March">
+        </div>
+        <div class="form-group">
+            <label for="Year">Date</label>
+            <input type="text" class="form-control" id="date" placeholder="30">
+        </div>
+
+
+        <div class="form-group form-check">
+            <input type="radio" name="one" class="form-check-input" value="" id="gender">
+            <label for="male">Male</label>
+            <br>
+
+            <input type="radio" name="one" class="form-check-input" value="" id="gender">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="submit" class="form-check-input" id="sumit">
+            <label for="submit" action="clear"></label>
+        </div>
+    </form>
+    
+    <input type="reset">
+</body>
+
 </html>
