@@ -50,7 +50,7 @@ var checkgender = function() {
     switch(gender){
         case "male":
         if(dayOfTheWeek == 0){
-            document.write("Monday" + maleNames[0]);
+            document.write("Monday" + MaleNames[0]);
         }else if (day == 1){
             document.write("Tuesday" + maleNames[1]);
         }else if (day == 2){ 
@@ -64,7 +64,25 @@ var checkgender = function() {
         }else { 
             document.write("Sunday" + maleNames[6]);
     }
-   
+    break;
+    case "female":
+            if(dayOfTheWeek == 0){
+                document.write("Monday" + femaleNames[0]);
+            }else if (day == 1){
+                document.write("Tuesday" + femaleNames[1]);
+            }else if (day == 2){ 
+                document.write("Wednesay" + femaleNames[2]);
+            }else if (day == 3){ 
+                document.write("Thursday" + femaleNames[3]);
+            }else if (day == 4){ 
+                document.write("Friday" + femaleNames[4]);
+            }else if (day == 5){ 
+                document.write("Saturday" + femaleNames[5]);
+            }else{ 
+                document.write("Sunday" + femaleNames[6]);
+            }
+    break;
+    default:
         console.log("The switch works");
     }
 
