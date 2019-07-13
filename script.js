@@ -1,10 +1,19 @@
+var  century ;
+var year;
+var month;
+var date;
+var dayOfTheWeek 
+// This is what we expect to be outputed
+// initialise empty variables to be used in our function.Their names correspond to our ids in HTML.
 
-    
-function compute(){
- var field1=document.getElementbyid.("form").innerHTML
- Return.this.
-    
+var day = function(){
+
+        century = parseInt(document.getElementById("century").value)
+        year = parseInt(document.getElementById("year").value)
+        month = parseInt(document.getElementById("month").value)
+        date = parseInt(document.getElementById("date").value)  
 }
+
 
 
 
