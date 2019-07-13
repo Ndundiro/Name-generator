@@ -13,6 +13,13 @@ var day = function(){
         month = parseInt(document.getElementById("month").value)
         date = parseInt(document.getElementById("date").value)  
 }
+var calculate = function() {
+    day();
+    // call the above function (day)
+    dayOfTheWeek = ( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
+    document.write(Math.floor(dayNum));
+    // Input the formula for finding the day.Used the one on LMS
+}
 
 
 
