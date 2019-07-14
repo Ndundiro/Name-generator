@@ -12,11 +12,14 @@ This application is all about users getting to know their  Akan names which corr
 * A  button that clears the output to allow for the repeat of the process.
 
 ## Setup/Installation Requirements
-* Web browser
-* Internet connection
+* Download a zip file of the project.
+* Extract the files 
+* open index.html in a browser
+
+
 
 ## Known Bugs
-* There are  no known bugs at the moment.
+* The output is not displayed as expected
 
 ## Technologies Used
 * HTML5 
