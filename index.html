@@ -8,47 +8,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
-    <form>
-        <div class="form-group">
-            <label for="Century">Century</label>
-            <input type="text" class="form-control" id="century" placeholder="eg.20" required>
-        </div>
-        <div class="form-group">
-            <label for="Year">Year</label>
-            <input type="year" class="form-control" id="year" placeholder="eg.2010" required>
-        </div>
-        <div class="form-group">
-            <label for="month">month</label>
-            <input type="number" class="form-control" id="month" placeholder="eg.2" min="1" max="12" required>
-        </div>
-        <div class="form-group">
-            <label for="Year">Date</label>
-            <input type="text" class="form-control" id="date" placeholder="eg.30" min="1" max="31" required>
-        </div>
+    <div class="container">
+        <h3>Fun fact!! Akan names</h3>
+        <div class="row">
+
+            <div class="col-md-7">
+                <form>
+                    <div class="form-group">
+                        <label for="Century">Century</label>
+                        <input type="text" class="form-control" id="century" placeholder="eg.20" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Year">Year</label>
+                        <input type="year" class="form-control" id="year" placeholder="eg.2010" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="month">month</label>
+                        <input type="number" class="form-control" id="month" placeholder="eg.2" min="1" max="12" required>  
+                    </div>
+                    <div class="form-group">
+                        <label for="Year">Date</label>
+                        <input type="text" class="form-control" id="date" placeholder="eg.30" min="1" max="31" required>
+                    </div>
 
 
-        <div class="form-group form-check">
-            <input type="radio" name="one" class="form-check-input" value="" id="gender">
-            <label for="male">Male</label>
-            <br>
-            <input type="radio" name="one" class="form-check-input" value="" id="gender">
-            <label for="female">Female</label>
-        </div>
-        <div>
-            <button onclick="result();">Submit</button>
+                    <div class="form-group form-check">
+                        <input type="radio" name="one" class="form-check-input" value="" id="gender">
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" name="one" class="form-check-input" value="" id="gender">
+                        <label for="female">Female</label>
+                    </div>
+                    <div>
+                        <button onclick="result();">Submit</button>
+
+                        
+                    </div>
+                    <input type="reset">
+                </form>
+            </div>
+            <div class="col-md-5">
+                <p>Did you know, former United Nations Secretary-General and recepient of Nobel peace prize Kofi Annan
+                    was born on a Friday.</p>
+                <p>Kofi is an Akan name for a male born on Friday.Thats fun,right?? You too can find your birth day and
+                    corresponding Akan name.Input your gender and date of birth and enjoy the fun!!.</p>
+                    <div class="row output"> 
+                            <p id="result"></p>
             
-            <!-- <label for="submit" action="clear"></label> -->
-        </div>
-        
-        <p id="result">
+                        </div>
+            </div>
+            
 
-        </p>
-    </form>
-    
-    <input type="reset"> 
+
+        </div>
+
+    </div>
 </body>
-<script src="script.js" ></script>
+<script src="script.js"></script>
+
 </html>
