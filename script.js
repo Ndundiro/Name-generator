@@ -83,7 +83,7 @@ var checkgender = function() {
             }
     break;
     default:
-        console.log("The switch works");
+        
     }
 
 
@@ -93,14 +93,7 @@ var checkgender = function() {
  
 /*removed arrays*/
 
-    // var output = function (){
-    //     if gender = "male"  
-    //     function calculate();
-    //     if (dayOfTheWeek = 0){
-    //         console.log(maleNames[0]);
-    //     } else if {
-    //         (dayOfTheWeek = 1){
-    //             console.log(maleNames[0])
+    )
     //         }
     //     }
     //     }
