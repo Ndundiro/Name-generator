@@ -1,5 +1,5 @@
 # Name-generator
-This application aims to assign a person a Ghanaian name that is related to the day of the week they were born. 12 July 2019
+This application aims to assign a person a Akan name that is related to the day of the week they were born. 12 July 2019
 By Ndundiro Kamau
 ## Description
 This application is all about users getting to know their  Akan names which correspond to their date of birth.Akan names are given according to the day of the week one is born.The app therefore identifies the day of birth from the given date.It combines that information with the inputed gender of the user to give the appropriate Aknan name of the user.
@@ -16,10 +16,12 @@ This application is all about users getting to know their  Akan names which corr
 * Extract the files 
 * open index.html in a browser
 
-
+## Link to live website
+* https://ndundiro.github.io/Name-generator/
 
 ## Known Bugs
-* The output is not displayed as expected
+
+* The output is not displayed as expected.It flashes through in milliseconds.
 
 ## Technologies Used
 * HTML5 
